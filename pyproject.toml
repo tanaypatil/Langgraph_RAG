@@ -1,0 +1,29 @@
+[project]
+name = "langgraphrag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "tanaypatil",email = "tanaypatil197@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "langgraph (>=1.0.1,<2.0.0)",
+    "langchain (>=1.0.1,<2.0.0)",
+    "langchain-openai (>=1.0.0,<2.0.0)",
+    "langchain (>=1.0.1,<2.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "langchain-community (>=0.4,<0.5)",
+    "tavily-python (>=0.7.12,<0.8.0)",
+    "chromadb (>=1.2.1,<2.0.0)",
+    "beautifulsoup4 (>=4.14.2,<5.0.0)",
+    "pytest (>=8.4.2,<9.0.0)",
+    "langchain-chroma (>=1.0.0,<2.0.0)",
+    "langchain-tavily (>=0.2.12,<0.3.0)",
+    "tiktoken (>=0.12.0,<0.13.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
